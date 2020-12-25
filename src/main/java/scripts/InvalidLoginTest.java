@@ -16,6 +16,7 @@ public class InvalidLoginTest {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.bestbuy.ca/");
 		driver.manage().window().maximize();
+		System.out.println("Hello");
 		WebElement account = driver.findElement(By.xpath("//span[text()='Account']"));
 		account.click();
 		
