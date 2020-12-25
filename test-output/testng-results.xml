@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46455" started-at="2020-12-25T07:41:12Z" finished-at="2020-12-25T07:41:58Z">
+  <suite name="Default suite" duration-ms="39614" started-at="2020-12-25T08:26:25Z" finished-at="2020-12-25T08:27:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46455" started-at="2020-12-25T07:41:12Z" finished-at="2020-12-25T07:41:58Z">
-      <class name="scripts.LoginTest">
-        <test-method status="PASS" signature="loginPageValidScenario()[pri:0, instance:scripts.LoginTest@19bb089b]" name="loginPageValidScenario" duration-ms="46442" started-at="2020-12-25T13:11:12Z" finished-at="2020-12-25T13:11:58Z">
+    <test name="Default test" duration-ms="39614" started-at="2020-12-25T08:26:25Z" finished-at="2020-12-25T08:27:05Z">
+      <class name="scripts.InvalidLoginTest">
+        <test-method status="PASS" signature="invalidloginScenario()[pri:0, instance:scripts.InvalidLoginTest@19bb089b]" name="invalidloginScenario" duration-ms="39596" started-at="2020-12-25T13:56:25Z" finished-at="2020-12-25T13:57:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPageValidScenario -->
-      </class> <!-- scripts.LoginTest -->
+        </test-method> <!-- invalidloginScenario -->
+      </class> <!-- scripts.InvalidLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
