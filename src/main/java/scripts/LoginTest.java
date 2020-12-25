@@ -22,6 +22,7 @@ public class LoginTest {
 		password.sendKeys("Srirama@711");
 		WebElement signIn = driver.findElement(By.xpath("(//span[text()='Sign In'])[2]/.."));
 		signIn.click();
+		//impliment other functionalities
 		
 		
 	}
