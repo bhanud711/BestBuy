@@ -24,6 +24,7 @@ public class LoginTest {
 		signIn.click();
 	        System.out.println(driver.getCurrentUrl());
 	        System.out.println(driver.getTitle());
+	        //printing main page title and url
 		
 		
 	}
