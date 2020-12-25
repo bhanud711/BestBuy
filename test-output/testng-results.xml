@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39614" started-at="2020-12-25T08:26:25Z" finished-at="2020-12-25T08:27:05Z">
+  <suite name="Default suite" duration-ms="55654" started-at="2020-12-25T10:13:01Z" finished-at="2020-12-25T10:13:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39614" started-at="2020-12-25T08:26:25Z" finished-at="2020-12-25T08:27:05Z">
+    <test name="Default test" duration-ms="55654" started-at="2020-12-25T10:13:01Z" finished-at="2020-12-25T10:13:57Z">
       <class name="scripts.InvalidLoginTest">
-        <test-method status="PASS" signature="invalidloginScenario()[pri:0, instance:scripts.InvalidLoginTest@19bb089b]" name="invalidloginScenario" duration-ms="39596" started-at="2020-12-25T13:56:25Z" finished-at="2020-12-25T13:57:05Z">
+        <test-method status="PASS" signature="invalidloginScenario()[pri:0, instance:scripts.InvalidLoginTest@19bb089b]" name="invalidloginScenario" duration-ms="55639" started-at="2020-12-25T15:43:01Z" finished-at="2020-12-25T15:43:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidloginScenario -->
