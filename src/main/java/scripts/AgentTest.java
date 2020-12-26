@@ -39,9 +39,7 @@ public class AgentTest {
 		mail.sendKeys("ramaraod711@gmail.com");
 		Thread.sleep(10000);
 		WebElement button = driver.findElement(By.xpath("//span[text()='Start Chat']/.."));
-		button.click();
-		
-		
+		button.click();	
 	}
 
 }
