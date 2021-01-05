@@ -19,7 +19,6 @@ public class InvalidLoginTest {
 		System.out.println("Hello");
 		WebElement account = driver.findElement(By.xpath("//span[text()='Account']"));
 		account.click();
-		
 		WebElement username = driver.findElement(By.xpath("//input[@id='username']"));
 		username.sendKeys("alpha@gmail.com");
 		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
