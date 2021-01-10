@@ -27,7 +27,7 @@ public class ShopingTest {
 		password.sendKeys("Srirama@711");
 		WebElement signIn = driver.findElement(By.xpath("(//span[text()='Sign In'])[2]/.."));
 		signIn.click();
-		Thread.sleep(50000);
+		Thread.sleep(20000);
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
 		WebElement searchBar= driver.findElement(By.xpath("//input[@name='search']"));

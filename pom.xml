@@ -67,12 +67,11 @@
         <useSystemClassLoader>false</useSystemClassLoader>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
-            <suiteXmlFile>Regression.xml</suiteXmlFile>
-            <suiteXmlFile>aryal.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
       
   </plugins>
 </build>
+
 </project>
