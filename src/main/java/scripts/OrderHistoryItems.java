@@ -7,9 +7,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Logout {
+public class OrderHistoryItems {
+
 	@Test
-	public void signout() throws InterruptedException {
+	public void orderhistory() throws InterruptedException
+	{
 		System.setProperty("webdriver.chrome.driver", ".//drivers//chromedriver.exe");
 
 		WebDriver driver=new ChromeDriver();
@@ -26,16 +28,11 @@ public class Logout {
 		password.sendKeys("");
 		WebElement signIn = driver.findElement(By.xpath("(//span[text()='Sign In'])[2]/.."));
 		signIn.click();
-		Thread.sleep(50000);
-		System.out.println(driver.getCurrentUrl());
-		System.out.println(driver.getTitle());	
-		WebElement greeting = driver.findElement(By.xpath("//span[text()='Hi, Ramarao!']"));
-		greeting.click();
-		WebElement singout = driver.findElement(By.xpath("//span[text()='Sign Out']"));
-		singout.click();
+		Thread.sleep(20000);
 		System.out.println(driver.getCurrentUrl());
 		System.out.println(driver.getTitle());
+		WebElement order = driver.findElement(By.xpath("//h3[text()='Order History']"));
+		order.click();
 		
 	}
-
 }

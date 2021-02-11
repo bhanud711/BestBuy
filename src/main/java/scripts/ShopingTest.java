@@ -22,9 +22,9 @@ public class ShopingTest {
 		WebElement account = driver.findElement(By.xpath("//span[text()='Account']"));
 		account.click();
 		WebElement username = driver.findElement(By.xpath("//input[@id='username']"));
-		username.sendKeys("ramaraod711@gmail.com");
+		username.sendKeys("");
 		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-		password.sendKeys("Srirama@711");
+		password.sendKeys("");
 		WebElement signIn = driver.findElement(By.xpath("(//span[text()='Sign In'])[2]/.."));
 		signIn.click();
 		Thread.sleep(20000);
